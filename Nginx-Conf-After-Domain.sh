@@ -10,7 +10,6 @@ echo > /etc/nginx/sites-available/default
 cat > /etc/nginx/sites-available/default << EOF
 server {
     listen 80;
-
     server_name yourdomain.com www.yourdomain.com;
 
     location / {
